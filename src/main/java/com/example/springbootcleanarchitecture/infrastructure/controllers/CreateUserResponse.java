@@ -1,2 +1,4 @@
-package com.example.springbootcleanarchitecture.infrastructure.controllers;public class CreateUserResponse {
+package com.example.springbootcleanarchitecture.infrastructure.controllers;
+
+public record CreateUserResponse(String name, String email) {
 }
